@@ -1,0 +1,243 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: cursive;
+}
+.bg{
+    background-image: url('abc.jpg');
+  /* background-color: black;*/
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+ul{
+    /*height: 20px;*/
+    list-style: none;
+    position: relative;
+    margin-top: 20px;
+    float: right;
+}
+ul li{display: inline-block;}
+ul li a{
+    padding: 5px 20px;
+    color: chartreuse;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .9s ease;
+}
+
+li a:hover{background: chartreuse;color: black;}
+ul li.active a{background: chartreuse;color: black;}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+.par{
+    color: chartreuse;
+    background-color: black;
+    text-align: center;
+    margin-top: 70px;
+}
+.one{
+    position: relative;
+    margin: 50px;
+    width: 200px;   
+    height: 230px;
+    background: url('c1.jpg');
+    transition: 1s;
+    text-align: center;
+    /* line-height: 200px; */
+    font-size: 16px;
+    float: left;
+}
+.one::before{
+    content: 'Contemporary';
+    color: black;
+    left: 0;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    opacity: 0;
+    text-align: center;
+    line-height: 60px;
+    transition: .4s;
+    /* font-size: 35px; */
+}
+.one:hover::before{
+    opacity: 1;
+    background: linear-gradient(chartreuse,white);
+    transform: translateY(230px) scale(1.1);
+}
+.one:after{
+
+    content: 'Rs.1000/dance 3-days in week';
+    font-size: 13px;
+    color: chartreuse;
+    width: 200px;
+    height: 230px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+    line-height: 230px;
+    transition-delay: .8s;
+}
+.one:hover::after{
+    opacity: .8;
+
+    background: black;
+}
+.two{
+    background: url('hip.jpg');
+    position: relative;
+    margin: 50px;
+    width: 200px;   
+    height: 230px;
+    transition: 1s;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+}
+.two::before{
+    content: 'HiP-HoP';
+    color: black;
+    left: 0;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    text-align: center;
+    line-height: 60px;
+    transition: .4s;
+  
+}
+.two:hover::before{
+    opacity: 1;
+    background: linear-gradient(chartreuse,white);
+    transform: translateY(230px) scale(1.1);
+}
+.two::after{
+    content: 'Rs.800/dance 3-days in week';
+    font-size: 13px;
+    color: chartreuse;
+    width: 200px;
+    height: 230px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+    line-height: 230px;
+    transition-delay: .8s;
+  
+}
+.two:hover::after{
+    opacity: .8;
+   
+    background: black;
+}
+.three{
+    position: relative;
+    margin: 50px;
+    width: 200px;   
+    height: 230px;
+    background: url('g1.jpg');
+    transition: 1s;
+    text-align: center;
+    /* line-height: 200px; */
+    font-size: 16px;
+    float: left;
+}
+.three::before{
+    content: 'Garba';
+    color: black;
+    left: 0;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    opacity: 0;
+    text-align: center;
+    line-height: 60px;
+    transition: .4s;
+}
+.three:hover::before{
+    opacity: 1;
+    background: linear-gradient(chartreuse,white);
+    transform: translateY(230px) scale(1.1);
+}
+.three::after{
+    content: 'Rs.800/dance 3-days in week';
+    font-size: 13px;
+    color: chartreuse;
+    width: 200px;
+    height: 230px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+    line-height: 230px;
+    transition-delay: .8s;
+}
+.three:hover::after{
+    opacity: .8;
+    background: black;
+}
+.four{
+    position: relative;
+    margin: 50px;
+    width: 200px;   
+    height: 230px;
+    background: url('class.jpg');
+    transition: 1s;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+}
+.four::before{
+    content: 'Classicle';
+    color: black;
+    left: 0;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    opacity: 0;
+    text-align: center;
+    line-height: 60px;
+    transition: .4s;
+}
+.four:hover::before{
+    opacity: 1;
+    background: linear-gradient(chartreuse,white);
+    transform: translateY(230px) scale(1.1);
+}
+.four::after{
+    content: 'Rs.1299/dance 3-days in week';
+    font-size: 13px;
+    color: chartreuse;
+    width: 200px;
+    height: 230px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+    line-height: 230px;
+    transition-delay: .8s;
+  
+}
+.four:hover::after{
+    opacity: .8;
+    background: black;
+}

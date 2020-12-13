@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+header{
+        background-image: url('bg33.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+ul{
+    /*height: 20px;*/
+    list-style: none;
+    position: relative;
+    margin-top: 20px;
+    float: right;
+}
+ul li{display: inline-block;}
+ul li a{
+    padding: 5px 20px;
+    color: chartreuse;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .9s ease;
+}
+
+li a:hover{background: chartreuse;color: black;}
+ul li.active a{background: chartreuse;color: black;}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+    .title{
+        color: whitesmoke;
+        text-align: center;
+        padding: 20px;
+        margin-top: auto;}
+/*h1{
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}*/
+.card1{
+    position: relative;
+    margin: 30px;
+    width: 200px;   
+    height: 230px;
+    background: url('dharmesh.jpg');
+    transition: 1s;
+   /* line-height: 200px;*/
+    background-repeat: no-repeat;
+    float: left;
+}
+.p1{
+    background-color: black;
+    color: chartreuse;
+    width: 1000px;
+    height: 220px;
+    margin-top: 70px;
+}
+.card2{
+    position: relative;
+    margin: 30px;
+    width: 200px;   
+    height: 230px;
+    background: url('punit.jpg');
+    transition: 1s;
+    line-height: 200px;
+    background-repeat: no-repeat;
+    /*margin-top: 40px;*/
+    float: left;
+    margin-top: 0;
+}
+.p2{
+    background-color: black;
+    color: chartreuse;
+    width: 1000px;
+    height: 220px;
+    margin-top: 70px;
+}
